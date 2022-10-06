@@ -3,4 +3,3 @@
 #Print 1 if the number is even, otherwise print 0.
 number=5
 a=(number+1)%2
-print(a)
