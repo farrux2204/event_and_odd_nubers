@@ -4,27 +4,28 @@
 
 #Print the number of even digits in the variable "var_int".
 
-a=1224
-var_int=0
+var_int=1113
+a=0
 
-a1 = a%10
-var_int=var_int+(a1+1)%2
+
+var_int1 = a%10
+a==a+(var_int1+1)%2
 a//=10 
 
 
 
-a2 = a%10
-var_int=var_int+(a2+1)%2
+var_int2 = a%10
+a=a+(var_int2+1)%2
 a//=10
 
 
-a3 = a%10
-var_int=var_int+(a3+1)%2
+var_int3 = a%10
+a=a+(var_int3+1)%2
 a//=10
 
 
-a4 = a%10
-var_int=var_int+(a4+1)%2
+var_int4 = a%10
+a=a+(var_int4+1)%2
 a//=10
 
-print(var_int)
+print(a)
