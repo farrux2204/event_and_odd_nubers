@@ -4,7 +4,7 @@
 
 #Print the number of even digits in the variable "var_int".
 
-a=1233
+a=1224
 var_int=0
 
 a1 = a%10
