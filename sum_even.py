@@ -11,4 +11,5 @@ x4=(var_int%10+1)%2*var_int%10
 x3=(var_int//10%10+1)%2*var_int//10%10
 x2=(var_int//100%10+1)%2*var_int//100%10
 x1=(var_int//1000+1)%2*var_int//1000 
-print(x1+x2+x3+x4) 
+sum_even=x1+x2+x3+x4
+print(sum_even)
